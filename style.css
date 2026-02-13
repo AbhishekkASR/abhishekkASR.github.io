@@ -527,7 +527,12 @@ body[data-theme="light"] .footer-icons a {
   background: rgba(0, 0, 0, 0.04);
   border: 1px solid rgba(0, 0, 0, 0.08);
 }
-
+.clickable-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
 /* Responsive Footer */
 @media(max-width: 900px) {
   .pro-footer {
